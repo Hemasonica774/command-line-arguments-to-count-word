@@ -18,6 +18,19 @@ Anaconda - Python 3.7
 ### Step 6: 
 
 ## PROGRAM:
+```
+##Developed by :P.Hemasonica
+##Register number :22003246
+
+import sys
+
+with open(sys.argv[1],'r') as f:
+    num_words =0
+    for i in f:
+        word =i.split()
+        num_words += len(word)
+print("Number of words={}".format(num_words))
+```
 
 ### OUTPUT:
 
